@@ -66,7 +66,7 @@ const Data = () => {
       });
   }, []);
 
-  // comment 2
+  // comment 3
   const indexOfLastItem = currentPage * itemPerPage;
   const indexofFirstItem = indexOfLastItem - itemPerPage;
   const currentItem = data.slice(indexofFirstItem, indexOfLastItem);
