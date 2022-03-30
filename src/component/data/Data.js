@@ -65,7 +65,7 @@ const Data = () => {
         setData(json);
       });
   }, []);
-
+  // comment
   const indexOfLastItem = currentPage * itemPerPage;
   const indexofFirstItem = indexOfLastItem - itemPerPage;
   const currentItem = data.slice(indexofFirstItem, indexOfLastItem);
