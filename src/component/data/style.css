@@ -1,0 +1,29 @@
+.bottomBoxes {
+  display: flex;
+  list-style: none;
+}
+
+.bottomBoxes li {
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.active {
+  background-color: yellow;
+}
+.bottomBoxes li button {
+  background-color: transparent;
+  border: none;
+  color: grey;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.bottomBoxes li button:hover {
+  background-color: yellowgreen;
+  color: white;
+}
+
+.bottomBoxes li button:focus {
+  outline: none;
+}
